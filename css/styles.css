@@ -724,6 +724,7 @@ textarea {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 .modal
@@ -740,10 +741,12 @@ textarea {
 
 .modal .modal-window .modal-form .form-checkbox .checkbox-label .label-link {
   color: #4d5ae5;
+  text-decoration: underline;
 }
 
 .modal .modal-window .modal-form .form-button {
   display: block;
+  margin: auto;
   min-width: 169px;
   height: 56px;
   font-family: "Roboto", sans-serif;
