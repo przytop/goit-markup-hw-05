@@ -517,7 +517,7 @@ button {
   color: #ffffff;
 }
 
-.footer .container .row-subscribe .form .form-label .form-button {
+.footer .container .row-subscribe .form .form-button {
   min-width: 165px;
   height: 40px;
   display: flex;
@@ -535,6 +535,6 @@ button {
   border-radius: 4px;
 }
 
-.footer .container .row-subscribe .form .form-label .form-button .form-icon {
+.footer .container .row-subscribe .form .form-button .form-icon {
   margin-left: 16px;
 }
