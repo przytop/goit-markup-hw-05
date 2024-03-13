@@ -660,8 +660,7 @@ button {
   .modal-window
   .modal-form
   .form-container
-  .form-input-wrap
-  .form-input:focus
+  .form-input-wrap:focus
   .input-icon {
   fill: #4d5ae5;
 }
