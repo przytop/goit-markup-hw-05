@@ -539,7 +539,7 @@ button {
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal .modal-window {
+.modal-window {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -554,7 +554,7 @@ button {
   padding: 72px 24px 24px 24px;
 }
 
-.modal .modal-window .modal-button {
+.modal-button {
   position: absolute;
   top: 24px;
   right: 24px;
@@ -572,22 +572,22 @@ button {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal .modal-window .modal-button:hover,
-.modal .modal-window .modal-button:focus {
+.modal-button:hover,
+.modal-button:focus {
   background-color: #404bbf;
   border: none;
 }
 
-.modal .modal-window .modal-button .modal-icon {
+.modal-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal .modal-window .modal-button:hover .modal-icon,
-.modal .modal-window .modal-button:focus .modal-icon {
+.modal-button:hover .modal-icon,
+.modal-button:focus .modal-icon {
   fill: #ffffff;
 }
 
-.modal .modal-window .modal-title {
+.modal-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -597,11 +597,11 @@ button {
   margin-bottom: 16px;
 }
 
-.modal .modal-window .modal-form .form-container {
+.form-container {
   margin-bottom: 8px;
 }
 
-.modal .modal-window .modal-form .form-container .form-label {
+.form-label {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -610,11 +610,11 @@ button {
   margin-bottom: 4px;
 }
 
-.modal .modal-window .modal-form .form-container .form-input-wrap {
+.form-input-wrap {
   position: relative;
 }
 
-.modal .modal-window .modal-form .form-container .form-input-wrap .form-input {
+.form-input {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -625,16 +625,11 @@ button {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal
-  .modal-window
-  .modal-form
-  .form-container
-  .form-input-wrap
-  .form-input:focus {
+.form-input:focus {
   border-color: #4d5ae5;
 }
 
-.modal .modal-window .modal-form .form-container .form-input-wrap .input-icon {
+.input-icon {
   position: absolute;
   left: 16px;
   top: 50%;
@@ -642,30 +637,24 @@ button {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal
-  .modal-window
-  .modal-form
-  .form-container
-  .form-input-wrap
-  .form-input:checked
-  + .input-icon {
+.form-input:checked + .input-icon {
   fill: #4d5ae5;
 }
 
-.modal .modal-window .modal-form .form-container-comment {
+.form-container-comment {
   margin-bottom: 16px;
 }
 
-.modal .modal-window .modal-form .form-container-comment .form-label {
+/* .form-container-comment .form-label {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
   display: block;
   margin-bottom: 4px;
-}
+} */
 
-.modal .modal-window .modal-form .form-container-comment .form-textarea {
+.form-textarea {
   width: 100%;
   height: 120px;
   font-size: 12px;
@@ -681,22 +670,22 @@ button {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal .modal-window .modal-form .form-container-comment .form-textarea:focus {
+.form-textarea:focus {
   border-color: #4d5ae5;
 }
 
-.modal .modal-window .modal-form .form-checkbox {
+.form-checkbox {
   margin-bottom: 24px;
 }
 
-.modal .modal-window .modal-form .form-checkbox .checkbox-label {
+.checkbox-label {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
 
-.modal .modal-window .modal-form .form-checkbox .checkbox-label .checkbox {
+.checkbox {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -711,24 +700,18 @@ button {
   margin-right: 8px;
 }
 
-.modal
-  .modal-window
-  .modal-form
-  .form-checkbox
-  .checkbox-input:checked
-  + .checkbox-label
-  .checkbox {
+.checkbox-input:checked + .checkbox-label .checkbox {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
 }
 
-.modal .modal-window .modal-form .form-checkbox .checkbox-label .label-link {
+.label-link {
   color: #4d5ae5;
   text-decoration: underline;
 }
 
-.modal .modal-window .modal-form .form-button {
+.modal-form .form-button {
   display: block;
   margin: auto;
   min-width: 169px;
