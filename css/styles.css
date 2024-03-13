@@ -703,7 +703,7 @@ button {
   margin-right: 8px;
 }
 
-.checkbox-input:checked + .checkbox-label checkbox {
+.checkbox-input:checked + .checkbox-label span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
