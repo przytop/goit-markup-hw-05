@@ -641,21 +641,12 @@ button {
 }
 
 .form-input:checked + svg {
-  fill: #4d5ae5;
+  fill: none;
 }
 
 .form-container-comment {
   margin-bottom: 16px;
 }
-
-/* .form-container-comment .form-label {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-  display: block;
-  margin-bottom: 4px;
-} */
 
 .form-textarea {
   width: 100%;
